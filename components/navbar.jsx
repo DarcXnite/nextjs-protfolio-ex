@@ -70,20 +70,20 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <a
+              <Link
                 href='#'
                 className='block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-crimson md:p-0 dark:text-dkGray md:dark:hover:text-crimson dark:hover:bg-gray-700 dark:hover:text-crimson md:dark:hover:bg-transparent dark:border-gray-700'
               >
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href='#'
                 className='block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-crimson md:p-0 dark:text-dkGray md:dark:hover:text-crimson dark:hover:bg-gray-700 dark:hover:text-crimson md:dark:hover:bg-transparent dark:border-gray-700'
               >
                 Skills
-              </a>
+              </Link>
             </li>
             <li>
               <a
@@ -94,12 +94,12 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a
+              <Link
                 href='#'
                 className='block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-crimson md:p-0 dark:text-dkGray md:dark:hover:text-crimson dark:hover:bg-gray-700 dark:hover:text-crimson md:dark:hover:bg-transparent dark:border-gray-700'
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
