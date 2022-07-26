@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className='bg-vanilla border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-vanilla relative'>
       <div className='flex flex-wrap justify-between items-center mx-auto'>
-        <a href='/' className='flex items-center'>
+        <Link href='/' className='flex items-center'>
           <img
             src='/davislogo3.png'
             className='mr-3 h-14 w-16 sm:h-14'
@@ -16,7 +16,7 @@ export default function Navbar() {
           {/* <span className='self-center text-xl font-semibold whitespace-nowrap dark:text-white'>
             Flowbite
           </span> */}
-        </a>
+        </Link>
         <button
           data-collapse-toggle='mobile-menu'
           type='button'
